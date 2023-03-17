@@ -1,0 +1,33 @@
+.grid-main div {
+    display: grid;
+    place-items: center;
+    width: 400px;
+    
+  
+  }
+  .grid-ecran{
+    background-color:rgb(14, 14, 14);
+    display: grid;
+    height: 100px;
+    
+  
+    
+  }
+  .boutonhaut{
+    background-color:#0acfe9;
+    display:grid;
+    grid-template-columns:repeat(2,200px);
+    grid-template-rows:repeat(2,30px);
+    place-items:center;
+    height: 100px;
+  }
+  .bouton{
+    background-color:#0acfe9;
+    display:grid;
+    grid-template-columns:repeat(4,100px);
+    grid-template-rows:repeat(4,100px);
+    place-items:center;
+    border: 1px solid #070d0e;
+    
+  
+  }
